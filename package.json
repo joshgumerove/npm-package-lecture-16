@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "vite": "^5.4.3"
   }
 }
